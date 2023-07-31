@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*Header Styling*/
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 90px;
+}
+/*Navbar styling*/
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/*Logo Styling*/
+.logo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 4rem;
+  width: 10rem;
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+.logo h2 {
+  font-size: 1rem;
+  padding-left: 0.7rem;
+}
+/*Nav-items Styling*/
+.nav-items {
+  width: 20rem;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+/*Section Styling*/
+.section {
+  margin-top: 4rem;
+}
+/*Form Styling*/
+.section form {
+  margin-left: 20px;
+  border: 2px solid white;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 65vh;
+}
+.section input {
+  font-size: 1.2rem;
+  margin: 10px 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+}
+.section,
+.head {
+  text-align: center;
+  font-size: 2.4rem;
+  color: white;
+}
+.btn-primary {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
